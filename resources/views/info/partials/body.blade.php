@@ -2,7 +2,7 @@
 
 <header>
     <nav class="navbar d_flex">
-        <a href="{{ url('welcome') }}">Home Page</a>
+        <a href="{{ url('welcome') }}">Home</a>
     </nav>
 </header>
 <main>

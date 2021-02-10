@@ -89,7 +89,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('welcome') }}">Menù</a>
+                    <a href="{{ url('welcome') }}">Home</a>
                     <a href="{{ url('info')}}">Info</a>
                 </div>
             </div>
