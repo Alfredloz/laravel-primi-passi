@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Info</title>
+    <title>Contacts</title>
 
 
     {{-- links --}}
@@ -15,8 +15,34 @@
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
-                height: 100vh;
+                /* height: 100vh; */
                 margin: 0;
+            }
+           
+            h1{
+                font-size: 10rem;
+                text-align: center;
+            }
+            .d_flex{
+                display: flex;
+            }
+            .navbar{
+                justify-content: center;
+            }
+            .navbar a{
+                text-decoration: none;
+                font-weight: 600;
+
+            }
+            .navbar a:visited{
+                color: #636b6f;
+            }
+            .endbox{
+                height: 5rem;
+                width: 100%;
+                background-color: #636b6f;
+                position: fixed;
+                bottom: 0;
             }
     </style>
 </head>

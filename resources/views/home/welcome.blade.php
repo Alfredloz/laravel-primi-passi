@@ -19,7 +19,10 @@
                 height: 100vh;
                 margin: 0;
             }
-
+            body{
+                background-image: url('img/bg.jpg');
+                background-size: cover
+            }
             .full-height {
                 height: 100vh;
             }
